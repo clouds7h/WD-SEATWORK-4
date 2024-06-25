@@ -1,185 +1,169 @@
+/* General Styles */
 body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f5f5f5;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+}
+
+h1, h2, h4 {
     margin: 0;
     padding: 0;
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
+p {
+    margin: 0 0 1em;
 }
 
-.header img {
-    width: 100px;
-    filter: invert(100%);
-}
-
-.header nav {
-    display: flex;
-    gap: 1rem;
-}
-
-.header .btn {
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    font-size: 1.2rem;
-    border: 1px solid rgba(245, 245, 245, 0.2);
-    padding: 0.5rem 1rem;
-    border-radius: 3px;
-    font-weight: 700;
+a {
     text-decoration: none;
     color: #fff;
-    overflow: hidden;
-    transition: all 0.2s ease;
-    position: relative;
+    transition: color 0.3s;
 }
 
-.header .btn.active {
-    background: rgba(255, 255, 255, 0.5);
+a:hover {
+    color: #ff9900;
 }
 
-.header .btn::before {
-    position: absolute;
-    width: 10px;
-    height: 50px;
-    z-index: -1;
-    background: rgba(255, 255, 255, 0.1);
-    display: block;
-    content: '';
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    transform: skew(20deg) translateY(-5px) translateX(40px);
-    transition: all 0.2s ease;
-}
-
-.header .btn:hover {
-    background: rgba(252, 163, 17, 0.2);
-    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3px);
-}
-
-.header .btn:hover::before {
-    opacity: 0;
-}
-
-.main {
+/* Navbar Styles */
+.navbar {
     display: flex;
-    padding: 2rem;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    background-color: #222;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.left img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 1rem;
+.navbar .menu_left,
+.navbar .menu_right {
+    display: flex;
+    align-items: center;
 }
 
-.right {
-    max-width: 600px;
-    color: #333;
+.navbar .logo img {
+    height: 50px;
 }
 
-h1 {
-    font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 1rem;
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    font-size: 1.2rem;
-    line-height: 1.7;
-    margin-bottom: 2rem;
+.navbar .menu_list {
+    margin-right: 1em;
 }
 
-button {
-    padding: 1rem 2rem;
-    border-radius: 5rem;
-    border: none;
-    cursor: pointer;
-    background-color: #fca311;
+.navbar .menu_list .btn {
     color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-button:hover {
-    background-color: #e69500;
+.navbar .menu_list .btn:hover {
+    background-color: #ff9900;
     transform: scale(1.05);
 }
 
-/* footer */
-
-/* Your existing CSS remains unchanged */
-
-/* Adjust footer styling */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
+.navbar .menu_list .btn.active {
+    background-color: #ff9900;
 }
 
+.navbar .btn-contact {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
 
-@media screen and (max-width: 1000px) {
-    .header {
-        flex-direction: column;
-        padding: 0.5rem;
-    }
+.navbar .btn-contact:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+}
 
-    .header img {
-        width: 80px; /* Adjust size for smaller screens */
-    }
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
-    .header nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
 
-    .header .btn {
-        padding: 0.8rem 1.5rem;
-        font-size: 1rem;
-    }
+.hero .main-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-    .main {
-        flex-direction: column;
-        padding: 1rem;
-        gap: 1rem;
-    }
+.hero .h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
 
-    .left img {
-        margin-bottom: 0.5rem;
-    }
+.hero .quote {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
 
-    .right {
-        max-width: 100%;
-        text-align: center;
-    }
+.hero .quote p {
+    font-style: italic;
+}
 
-    h1 {
-        font-size: 2rem;
-    }
+.hero .quote span {
+    display: block;
+    margin-top: 0.5em;
+    text-align: right;
+    font-size: 0.9em;
+}
 
-    p {
-        font-size: 1rem;
-    }
+.hero .bg-black {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border-radius: 10px;
+}
 
-    button {
-        padding: 1rem 2.5rem;
-        font-size: 0.9rem;
-    }
+.hero .bg-black h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
 
-    footer {
-        text-align: center;
-    }
+.hero .bg-black h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+/* Section Styles */
+.section {
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+    margin: 2em 0;
+}
+
+.section h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
