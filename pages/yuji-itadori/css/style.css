@@ -11,16 +11,24 @@ body {
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between; /* Align items at opposite ends */
+    align-items: center;
     padding: 1rem;
     gap: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
     width: calc(100% - 2rem);
     z-index: 1000;
 }
 
-.header .btn {
+.logo {
+    height: 50px;
+}
+.btn-group {
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
     background: rgba(0, 170, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
@@ -33,36 +41,16 @@ body {
     text-decoration: none;
     color: #fff;
     transition: all 0.2s ease;
-    position: relative;
-    margin-right: 5px;
 }
 
-.header .btn.active {
+.btn.active {
     background: rgba(0, 170, 255, 0.3);
 }
 
-.header .btn::before {
-    position: absolute;
-    width: 10px;
-    height: 50px;
-    z-index: -1;
-    background: rgba(0, 170, 255, 0.2);
-    display: block;
-    content: '';
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    transform: skew(20deg) translateY(-5px) translateX(40px);
-    transition: all 0.2s ease;
-}
-
-.header .btn:hover {
+.btn:hover {
     background: rgba(0, 170, 255, 0.3);
     box-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
     transform: translateY(-3px);
-}
-
-.header .btn:hover::before {
-    opacity: 0;
 }
 
 .hero {
