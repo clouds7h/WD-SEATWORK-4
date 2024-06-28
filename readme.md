@@ -4,16 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/clouds7h">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hero Section Gallery</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This project showcases a collection of innovative hero section designs, crafted to demonstrate diverse styles and functionalities. Built using HTML for structure, CSS for styling, and JavaScript for interactivity, it includes a landing page and five unique hero sections. Each design exemplifies different visual and functional approaches, providing a comprehensive overview of modern hero section possibilities.
 </div>
 
 <br />
@@ -57,9 +57,6 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-
 The project is focused on demonstrating different hero section designs, with the purpose of showcasing various styles and approaches. It consists of a landing page and five distinct hero sections, each designed to highlight unique visual and functional elements.
 
 The technologies used in this project include HTML, CSS, and JavaScript. HTML is utilized to structure the web pages, CSS to style the hero sections and the landing page, and JavaScript to add interactivity and enhance functionality, creating a comprehensive and engaging user experience.
@@ -116,4 +113,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| BootStrap Icons | Icons for some hero section designs. |  https://icons.getbootstrap.com/icons/bootstrap/ |
