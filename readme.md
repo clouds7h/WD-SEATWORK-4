@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=clouds7h/WD-SEATWORK-4)
 
 ---
 
@@ -59,18 +59,17 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+The project is focused on demonstrating different hero section designs, with the purpose of showcasing various styles and approaches. It consists of a landing page and five distinct hero sections, each designed to highlight unique visual and functional elements.
+
+The technologies used in this project include HTML, CSS, and JavaScript. HTML is utilized to structure the web pages, CSS to style the hero sections and the landing page, and JavaScript to add interactivity and enhance functionality, creating a comprehensive and engaging user experience.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Landing Page
+- 5 hero section designs
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
