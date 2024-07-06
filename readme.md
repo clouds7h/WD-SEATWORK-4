@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This project showcases a collection of innovative hero section designs, crafted to demonstrate diverse styles and functionalities. Built using HTML for structure, CSS for styling, and JavaScript for interactivity, it includes a landing page and five unique hero sections. Each design exemplifies different visual and functional approaches, providing a comprehensive overview of modern hero section possibilities.
+  In this project, I designed and developed a landing page featuring four distinct hero sections using HTML and CSS. Each hero section showcased a different theme: "We Bare Bears," Yuji Itadori from "Jujutsu Kaisen," Kageyama from "Haikyuu!!," and SpongeBob SquarePants. The landing page was meticulously crafted to ensure a cohesive and visually appealing layout, with each hero section styled to reflect the unique attributes of the respective characters. Through this project, I demonstrated my ability to create engaging and dynamic web designs using core web technologies.
 </div>
 
 <br />
@@ -57,15 +57,14 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-The project is focused on demonstrating different hero section designs, with the purpose of showcasing various styles and approaches. It consists of a landing page and five distinct hero sections, each designed to highlight unique visual and functional elements.
+Our project involves creating a dynamic landing page featuring four unique hero designs. The first design showcases the popular characters from "We Bare Bears," bringing their lovable personalities to life. The second hero design highlights Yuji Itadori from "Jujutsu Kaisen," capturing the intense and thrilling essence of the anime. The third design focuses on Kageyama, a central character from "Haikyuu!!," emphasizing his passion for volleyball and competitive spirit. Lastly, the fourth hero design features the iconic SpongeBob SquarePants, providing a whimsical and fun element to the landing page.
 
-The technologies used in this project include HTML, CSS, and JavaScript. HTML is utilized to structure the web pages, CSS to style the hero sections and the landing page, and JavaScript to add interactivity and enhance functionality, creating a comprehensive and engaging user experience.
-
+Using HTML, CSS, and JavaScript, we will develop a visually appealing and interactive landing page that seamlessly integrates these four hero designs. HTML will structure the content, CSS will style each hero design to reflect the unique characteristics of the featured characters, and JavaScript will add interactivity to enhance the user experience. The goal is to create an engaging and cohesive landing page that showcases the distinctiveness of each character while maintaining a harmonious overall design.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Landing Page
-- 5 hero section designs
+- 4 hero section designs
 
 
 ### Technology
