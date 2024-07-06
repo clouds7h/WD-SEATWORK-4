@@ -65,7 +65,7 @@ The technologies used in this project include HTML, CSS, and JavaScript. HTML is
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Landing Page
-- 5 hero section designs
+- 4 hero section designs
 
 
 ### Technology
