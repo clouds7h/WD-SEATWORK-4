@@ -112,6 +112,5 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-------|---------|------|
 | Font Awesome | Icons used | [Font Awesome](https://fontawesome.com/v5/search) |
-| Tarjetas Giratorias (flip card) | HTML y CSS | [YouTube Video](https://www.youtube.com/watch?v=qOO6lVMhmGc&t=103s) |
-| Hover.css | Hover effects | [Hover.css](https://ianlunn.github.io/Hover/) |
+
 
